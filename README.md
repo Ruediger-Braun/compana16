@@ -31,4 +31,4 @@ Verfügung:
 [7]: https://www.mozilla.org/de/firefox/new/
 [8]: http://conda.pydata.org
 [9]: 
-[10]: ../blob/master/installation-windows.rst
+[10]: ../master/installation-windows.rst
