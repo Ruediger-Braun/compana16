@@ -8,7 +8,9 @@ Installation auf Windows-Rechnern
 
 * Öffnen Sie eine "Eingabeaufforderung" (finden Sie über die Suchfunktion) und installieren Sie die benötigten Bibliotheken mit dem Befehl 
 
-  `conda install jupyter scipy sympy matplotlib`
+.. code:: PowerShell
+
+  conda install jupyter scipy sympy matplotlib
 
   
 ===================
