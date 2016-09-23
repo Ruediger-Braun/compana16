@@ -6,8 +6,7 @@ Installation auf Windows-Rechnern
 
 * Die heruntergeladene Datei ausführen.  Das Installationsprogramm wird ausgeführt.  Am besten akzeptiert man alle Voreinstellungen.
 
-* Öffnen Sie eine "Eingabeaufforderung" (finden Sie über die Suchfunktion) und installieren Sie die benötigten Bibliotheken mit dem 
-Befehl 
+* Öffnen Sie eine "Eingabeaufforderung" (finden Sie über die Suchfunktion) und installieren Sie die benötigten Bibliotheken mit dem Befehl 
 
   `conda install jupyter scipy sympy matplotlib`
 
@@ -44,7 +43,7 @@ Fragen
 
 * Wie bekommt man heraus, ob man 32-bit oder 64-bit Windows hat?
 
-Eine Antwort gibt `diese Seite von Microsoft`_
+  Eine Antwort gibt `diese Seite von Microsoft`_
 
 
 
