@@ -5,15 +5,15 @@ Homepage der Vorlesung:  http://compana.ruediger-braun.net
 
 ## Benötige Software
 
-Für die Vorlesung benötigen wir [Python 3][1] zusammen mit den Bibliotheken 
+Die Übungen finden an den Rechnern des Mathematischen Instituts statt.  Wenn Sie auch auf Ihrem eigenen Rechner arbeiten wollen, dann benötigen Sie [Python 3][1] zusammen mit den Bibliotheken 
 
 * [numpy][2]
 * [scipy][3]
 * [sympy][4]
 * [matplotlib][5]
 
-Die graphische Oberfläche wird von [jupyter][6] bereit gestellt.  Sie kann in
-einem modernen Browser, z.B. [firefox][7], bedient werden.
+Die graphische Oberfläche wird von [jupyter][6] in Zusammenarbeit mit
+einem modernen Browser, z.B. [firefox][7], bereit gestellt.
 
 Eine bequeme Installationsmethode bietet [conda][8].  Detaillierte
 Installationsanleitungen stehen für MS-Windows und Linux zur
@@ -32,3 +32,14 @@ Verfügung:
 [8]: http://conda.pydata.org
 [9]: 
 [10]: ../master/installation-windows.rst
+
+## Manuals
+
+Die Vorlesung beginnt mit einer Einführung in dieses System.  Wer vorher schon mal gucken will, kann die folgenden Manuale und Tutorien konsultieren
+
+* [jupyter][11]
+* [sympy][12]
+
+[11]: http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb
+[12]: http://docs.sympy.org/dev/tutorial/
+
