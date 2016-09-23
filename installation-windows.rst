@@ -2,14 +2,11 @@
 Installation auf Windows-Rechnern
 =================================
 
-* Miniconda von der `Download-Seite`_ herunterladen.  Wählen Sie
-Version für mit Python 3.5 für Ihr Betriebbsystem
+* Miniconda von der `Download-Seite`_ herunterladen.  Wählen Sie die Version für mit Python 3.5 für Ihr Betriebbsystem
 
-* Die heruntergeladene Datei ausführen.  Das Installationsprogramm
-wird ausgeführt.  Am besten akzeptiert man alle Voreinstellungen.
+* Die heruntergeladene Datei ausführen.  Das Installationsprogramm wird ausgeführt.  Am besten akzeptiert man alle Voreinstellungen.
 
-* Öffnen Sie eine "Eingabeaufforderung" (finden Sie über die
-Suchfunktion) und installieren Sie die benötigten Bibliotheken mit dem
+* Öffnen Sie eine "Eingabeaufforderung" (finden Sie über die Suchfunktion) und installieren Sie die benötigten Bibliotheken mit dem 
 Befehl 
 
   `conda install jupyter scipy sympy matplotlib`
@@ -19,12 +16,9 @@ Befehl
 Start des Notebooks
 ===================
 
-Die graphische Oberfläche wird vom "Jupyter Notebook" zur Verfügung
-gestellt.  Man findet es über die Suchfunktion.
+Die graphische Oberfläche wird vom "Jupyter Notebook" zur Verfügung gestellt.  Man findet es über die Suchfunktion.
 
-Wenn man das Notebook startet, sieht man zuerst eine
-Eingabeaufforderung.  Nach kurzer Wartezeit öffnet sich dann der
-Browser mit der lokalen jupyter-Seite.  
+Wenn man das Notebook startet, sieht man zuerst eine Eingabeaufforderung.  Nach kurzer Wartezeit öffnet sich dann der Browser mit der lokalen jupyter-Seite.  
 
 
   
