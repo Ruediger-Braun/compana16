@@ -1,22 +1,32 @@
-======================
-Installation auf Linux
-======================
+================================
+Installation auf Linux-Rechnern
+================================
 
-Für die Vorlesung benötigen wir `Python 3`_ zusammen mit den Bibliotheken
+* Miniconda von der `Download-Seite`_ herunterladen.  Wählen Sie die
+  Version für mit Python 3.5 für Ihr Betriebssystem
 
-* numpy_
-* scipy_
-* sympy_
-* matplotlib_    
+* Die heruntergeladene Datei ausführbar machen:
 
-Die graphische Oberfläche wird von jupyter_ bereit gestellt.  Sie kann in
-einem modernen Browser, z.B. firefox_, bedient werden.
+.. code:: bash
 
-.. _Python 3: http://www.python.org
-.. _numpy: http://www.numpy.org
-.. _scipy: http://www.scipy.org
-.. _sympy: http://www.sympy.org
-.. _matplotlib: http://matplotlib.org
-.. _jupyter: http://jupyter.org
-.. _firefox: https://www.mozilla.org/de/firefox/new/
+	  chmod u+x Miniconda3-latest-Linux-x86*.sh
+
+* Die heruntergeladene Datei ausführen.  Dadurch startet das
+  Installationsprogramm wird ausgeführt.  Am besten beantwortet man
+  alle Fragen mit "yes"
+
+* Öffnen Sie eine neues Terminal  und installieren Sie die benötigten Bibliotheken mit dem Befehl 
+
+.. code:: bash
+
+  conda install jupyter scipy sympy matplotlib
+
+  
+===================
+Start des Notebooks
+===================
+
+Die graphische Oberfläche wird vom "Jupyter Notebook" zur Verfügung gestellt.  Man findet es über die Suchfunktion.
+
+Wenn man das Notebook startet, sieht man zuerst eine Eingabeaufforderung.  Nach kurzer Wartezeit öffnet sich dann der Browser mit der lokalen jupyter-Seite.  
 
