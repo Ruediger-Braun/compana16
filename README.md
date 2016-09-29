@@ -30,7 +30,7 @@ Verfügung:
 [6]: http://jupyter.org
 [7]: https://www.mozilla.org/de/firefox/new/
 [8]: http://conda.pydata.org
-[9]: 
+[9]: ../master/installation-linux.rst
 [10]: ../master/installation-windows.rst
 
 ## Manuals
