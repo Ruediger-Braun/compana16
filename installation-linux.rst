@@ -52,6 +52,5 @@ Fragen
 
    uname -p
 
-   gibt den Prozessortyp an; die letzten beiden Ziffern gleich 64
-   sind, hat man eine 64-Bit Maschine, sonst nicht
+gibt den Prozessortyp an; wenn die letzten beiden Ziffern gleich 64 sind, hat man eine 64-bit Maschine, sonst nicht
 
