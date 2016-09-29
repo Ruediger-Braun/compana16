@@ -17,15 +17,21 @@ Installation auf Windows-Rechnern
 Start des Notebooks
 ===================
 
-Die graphische Oberfläche wird vom "Jupyter Notebook" zur Verfügung
-gestellt.   Zum Start gibt man ein
+Die graphische Oberfläche wird vom "Jupyter Notebook" zur Verfügung gestellt.  Man findet es über die Suchfunktion.
 
-.. code:: bash
+Wenn man das Notebook startet, sieht man zuerst eine Eingabeaufforderung.  Nach kurzer Wartezeit öffnet sich dann der Browser mit der lokalen jupyter-Seite.  
 
-   jupyter notebook
-   
 
-Nach kurzer Wartezeit öffnet sich der Browser mit der lokalen jupyter-Seite.  
+  
+
+
+
+
+
+
+
+
+
 
 
 
@@ -37,11 +43,12 @@ Nach kurzer Wartezeit öffnet sich der Browser mit der lokalen jupyter-Seite.
 Fragen
 ======
 
-* Wie findet man heraus, ob man 32-bit oder 64-bit Linux hat?
+* Wie bekommt man heraus, ob man 32-bit oder 64-bit Windows hat?
 
-.. code:: bash
+  Eine Antwort gibt `diese Seite von Microsoft`_
 
-   uname -p
 
-   gibt den Prozessortyp an; die letzten beiden Ziffern gleich 64
-   sind, hat man eine 64-Bit Maschine, sonst nicht
+
+
+
+.. _diese Seite von Microsoft: https://support.microsoft.com/de-de/kb/827218
