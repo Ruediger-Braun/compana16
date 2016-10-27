@@ -65,6 +65,11 @@ beliebig genaue Fließkommazahlen
 	    
       numerische Auswertung
 
++     ``print``
+
+      einfache Ausgabe
+
+      
 
 Sympyfizierungen
 ================
@@ -120,41 +125,11 @@ elementare Funktionen
 +     ``abs``
 
       Absolutbetrag	    
-  
-Vereinfachungen
-===============
 
-+     ``simplify``
++     ``?``
 
-      allgemeiner Vereinfachungsbefehl, siehe auch in Ersetzungen_
-
-+     ``normal``
-
-      Kürzen von Brüchen
-
-+     ``normal(`` *f* ``, expanded)``
- 
-      dasselbe, aber Zähler und Nenner werden expandiert
-
-+     ``expand``
-
-      expandiert Polynome, trigonometrische Funktionen usw.
-
-+     ``factor``
-
-      faktorisiert Polynome
-
-Hilfsprogramme
-==============
-
-+     ``restart``
-
-      löscht alle Variablen
-
-+     ``lprint``
-
-      Ausgabe in 1D 
-
+      Hilfe zu einem Befehl	    
+      
 zurück zum Inhaltsverzeichnis_
 
 
