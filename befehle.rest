@@ -112,7 +112,7 @@ elementare Funktionen
 
       inverse trigonometrische Funktionen
 
-#..      ``arctan`` siehe auch in `Der Arcustangens`_
+..      ``arctan`` siehe auch in `Der Arcustangens`_
 
 +     ``log, ln``
 
