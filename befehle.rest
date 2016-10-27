@@ -63,7 +63,7 @@ beliebig genaue Fließkommazahlen
 
 +     ``N''
 	    
-      numerische Auswertung
+      numerische Auswertung (Funktion) siehe auch in `bestimmte Integrale`_
 
 +     ``print``
 
@@ -137,9 +137,98 @@ zurück zum Inhaltsverzeichnis_
 Lektion 2
 *********
 
+Vereinfachungen
+===============
+
++ ``expand``
+
+  Ausmultiplikation (Methode und Funktion)
+
++ ``factor``
+  
+  Faktorisierung von Polynomen (Methode und Funktion)
+
++ ``ratsimp``
+
+  Vereinfachung von Brüchen (Methode und Funktion)
+
++ ``trigsimp``
+
+  Vereinfachung trigonometrischer Ausdrücke (Methode und Funktion)
+
++ ``simplify``
+
+  alle sinnvollen Vereinfachungen (Methode und Funktion)
+  
+Auswertung von Ausdrücken
+=========================
+
++ ``subs``
+
+  Ersetzung eines Teilausdrucks (Methode)
+
+Grenzwerte
+==========
+
++ ``limit``
+
+  Grenzwert (Methode und Funktion)
+
++ ``Limit``
+
+  träger Grenzwert (Funktion)
+
++ ``doit``
+
+  Ausführung einer trägen Ausdrucks (Methode)
+
++ ``factorial``
+
+  Fakultät
+
+Ableitungen
+===========
+
++ ``diff``
+
+  Ableitung (Methode und Funktion)
+
++ ``numer``
+
+  Zähler (Funktion)
+
++ ``denom``
+
+  Nenner (Funktion)
+
+unbestimmte Integrale
+=====================
+
++ ``integrate``
+
+  Integral (Methode und Funktion) siehe auch `bestimmte Integrale`_
+
+bestimmte Integrale
+===================
+
++ ``integrate``
+
+  Integral (Methode und Funktion) siehe auch `unbestimmte Integrale`_
+
++ ``Integral``
+
+  träger Operator (Funktion)
+
++ ``n``
+
+  numerische Auswertung (Methode) siehe auch in `beliebig genaue Fließkommazahlen`_
 
 
+zurück zum Inhaltsverzeichnis_
 
+
+  
+  
 ----------------------
 
 © 2016 `Rüdiger Braun`_
