@@ -1,0 +1,174 @@
+.. -*- coding: utf-8 -*-
+
+=========================================
+Computergestützte Mathematik zur Analysis
+=========================================
+
+-------------------------------------------------------------------
+Übersicht über die verwendeten Befehle, nach Lektionen geordnet
+-------------------------------------------------------------------
+
+.. contents:: Inhaltsverzeichnis
+              :backlinks: none
+
+Lektion 1
+*********
+
+initialer Import
+================
+
++     ``from sympy import *``
+
+      Import der Bibliothek
+
++     ``init_printing()``
+
+      Einschalten der aufgehübschten Ausgabe
+
+      
+Arithmetik
+==========
+
++     Befehle werden mit ``;``
+      oder ``:`` abgeschlossen.  Im
+      ersten Fall wird das Ergebnis angezeigt, im zweiten nicht.  
+      Zeilenende impliziert ``;``
+
++     ``+, -, *, /, **``
+
+      arithmetische Operatoren
+
+
+Symbolische Rechnung
+====================
+
++     ``=``
+
+      Zuweisung
+
++     ``==``
+
+      Vergleichsoperator (später)
+
++     ``Rational``
+	    
+      rationale Zahl (im Gegensatz zur Fließkommazahl)
+
+beliebig genaue Fließkommazahlen
+================================
+
++     ``pi``
+
+      Kreiszahl 
+
++     ``N''
+	    
+      numerische Auswertung
+
+
+Sympyfizierungen
+================
+
++     ``S``
+
+      verwandelt allgemeines Python-Objekt in ``sympy``-Objekt, falls
+      das sinnvoll ist
+
++     ``type``
+
+      Typ eines Ausdrucks
+
+
+
+Symbole
+=======
+
++     ``x = S('x')``
+
+      Einrichtung eines Symbols
+
++     ``x = Symbol('x')``
+
+      alternative
+
+
+elementare Funktionen
+=====================
+
++     ``sqrt``
+
+      Quadratwurzel
+
++     ``sin, cos, tan, cot``
+
+      trigonometrische Funktionen
+
++     ``asin, acos, atan, acot``
+
+      inverse trigonometrische Funktionen
+
+#..      ``arctan`` siehe auch in `Der Arcustangens`_
+
++     ``log, ln``
+
+      natürlicher Logarithmus
+
++     ``exp``
+
+      Exponentialfunktion
+
++     ``abs``
+
+      Absolutbetrag	    
+  
+Vereinfachungen
+===============
+
++     ``simplify``
+
+      allgemeiner Vereinfachungsbefehl, siehe auch in Ersetzungen_
+
++     ``normal``
+
+      Kürzen von Brüchen
+
++     ``normal(`` *f* ``, expanded)``
+ 
+      dasselbe, aber Zähler und Nenner werden expandiert
+
++     ``expand``
+
+      expandiert Polynome, trigonometrische Funktionen usw.
+
++     ``factor``
+
+      faktorisiert Polynome
+
+Hilfsprogramme
+==============
+
++     ``restart``
+
+      löscht alle Variablen
+
++     ``lprint``
+
+      Ausgabe in 1D 
+
+zurück zum Inhaltsverzeichnis_
+
+
+
+Lektion 2
+*********
+
+
+
+
+----------------------
+
+© 2016 `Rüdiger Braun`_
+
+zurück zum Inhaltsverzeichnis_
+
+.. _`Rüdiger Braun`: mailto:Ruediger.Braun@uni-duesseldorf.de
