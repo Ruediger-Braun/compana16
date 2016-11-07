@@ -337,12 +337,12 @@ Funktionsgraphen sind Numerik
 Index Tricks
 ============
 
-Hier wird erklärtm wie man mit Hilfe eines boolschen Arrays auf einen Teil eines Arrays zugreift
+Hier wird erklärt, wie man mit Hilfe eines boolschen Arrays auf einen Teil eines Arrays zugreift
 
 3D Graphen
 ==========
 
-* ``from sympy-plotting import plot3d``
+* ``from sympy.plotting import plot3d``
 
 * ``plot3d``
 
