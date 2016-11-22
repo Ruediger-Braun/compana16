@@ -350,6 +350,154 @@ Hier wird erklärt, wie man mit Hilfe eines boolschen Arrays auf einen Teil eine
 
 zurück zum Inhaltsverzeichnis_
 
+Lektion 4
+*********
+
+3D Graphen in matplotlib
+========================
+
+* ``np.meshgrid``
+
+  erzeugt 2d-array aus zwei 1d-array
+
+* ``from mpl_toolkits import Axes3D``
+
+  Das muss man machen, obwohl Axes3D nicht direkt verwendet wird
+
+* ``fig.add_subplot(111, projection='3d')``
+
+  erzeugt eine Achse, d.h. ein Koordinatensystem
+  dabei ist ``fig`` eine ``plt.figure`` (siehe `Funktionsgraphen sind Numerik`_)
+
+* ``ax.plot_surface``
+
+  3d-Graph, dabei ist ``ax`` eine Achse wie im vorigen Befehl
+
+* ``ax.plot_wireframe``
+
+  wie plot_surface, aber als Drahtmodell
+
+* ``ax.view_init``
+
+  Blickwinkel
+
+* ``ax.set_zticks``
+
+  Markierungen an der z-Achse (set_xticks, set_yticks genauso)
+
+Beschränkungen der Höhe
+=======================
+
+* ``np.minimum``
+
+  elementweises Minimum von zwei arrays (
+
+* ``from matplotlib.colors import Normalize``
+
+  Hilfsfunktion für die automtische Färbung
+
+Listen, Tupel und Mengen
+========================
+
+* ``symbols``
+
+  mehrere Symbole auf einmal
+
+* ``set``
+
+  Menge
+
+* ``list``
+
+  Liste
+
+* ``tuple``
+
+  Tupel
+
+List and dictionary comprehension
+=================================
+
+* ``np.arange(n)``
+
+  array von 0 bis n-1
+
+* ``np.array``
+
+  Verwandlung von Liste in array
+
+Lösen von Gleichungen
+=====================
+
+* ``Eq``
+
+  Gleichung
+
+* ``solve``
+
+  Lösung einer Gleichung oder eines Gleichungssystems, funktioniert auch mit UNgleichungen
+
+zurück zum Inhaltsverzeichnis_
+
+Lektion 5
+*********
+
+Graphen von Lösungsmengen
+=========================
+
+* ``plt.contour``
+
+  2D-Plot von Höhenlinien
+
+* ``plt.axis('equal')``
+
+  Gleiche Maßstäbe auf beiden Achsen
+
+Polynomgleichungen
+==================
+
+* ``CRootOf``
+
+  Darstellung einer Nullstelle eines Polynoms
+
+* ``roots``
+
+  Spezieller Gleichungslöser für Polynome
+
+Numerische Lösung von Gleichungen
+=================================
+
+* ``nsolve``
+
+  numerische Lösung von Gleichungen 
+
+Paremeterabhängige Gleichungen
+==============================
+
+* ``LambertW``
+
+  spezielle Funktion
+
+Reihenentwicklungen
+===================
+
+* ``series``
+
+  Reihenentwicklung
+
+* ``O``
+
+  groß-O-Term einer Reihenentwicklung
+
+* ``.removeO``
+
+  Entfernung des groß-O-Terms (Methode bei Reihenentwicklungen)
+
+
+
+  
+
+
 ----------------------
 
 © 2016 `Rüdiger Braun`_
