@@ -493,9 +493,93 @@ Reihenentwicklungen
 
   Entfernung des groß-O-Terms (Methode bei Reihenentwicklungen)
 
+zurück zum Inhaltsverzeichnis_
 
+Lektion 6
+*********
 
+Schleifen
+=========
+
+* ``for``
+
+  Schleife (Blöcke werden durch Einrückung erklärt)
+
+* ``range``
+
+  konsekutive Foleg von ganzen Zahlen (wie ``np.arange``, aber als Liste)
+
+``if/elif/else``
+================
+
+* ``if``, ``elif``, ``else``
+
+  Verzweigungen
+
+* ``from IPython.display import display``
+  ``display``
+
+  formatierte Ausgabe 
   
+Mehrere Zeichnungen in einem Bild
+=================================
+
+* ``fig.add_subplot(`` *ijk* ``)``
+
+  fügt das *k*-te Bild in einer *i*x*k*-Matrix von Bildern ein (Methode)
+
+* ``plt.xticks``
+
+  Markierungen an der *x*-Achse, dito für ``plt.yticks`` (Funktion)
+
+* ``fig.savefig`` 
+
+  Bild abspeichern (Methode)
+
+* ``from IPython.display import Image``
+  ``Image``
+
+  Bild aus dem Speicher anzeigen
+
+Funktion
+========
+
+* ``def``
+
+  Funktionsdefinition
+
+* ``return``
+
+  Rückgabewert
+
+Zusammenfassen
+==============
+
+* ``collect``
+
+  Terme zusammenfassen (Funktion, auch als Methode)
+
+* ``rcollect``
+
+  Terme rekursiv zusammenfassen
+
+benutzerspezifische trigonometrische Vereinfachungen
+====================================================
+
+* ``trigsimp(method='fu', measure=``*my.measure*``)``
+
+  trigonometrische Umwandlung, dabei wird die durch *my_measure* angegebene Bewertung minimiert (Funktion oder Methode)
+
+* ``.count_ops(visual=True)``
+
+  Anzahlen von Operatoren, aufgeschlüsselt nach Art
+
+Potenzfunktionen
+================
+
+* ``sign``
+
+  Signumfunktion
 
 
 ----------------------
