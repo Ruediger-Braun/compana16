@@ -527,7 +527,7 @@ Mehrere Zeichnungen in einem Bild
 
 * ``fig.add_subplot(`` *ijk* ``)``
 
-  fügt das *k*-te Bild in einer *i* × *k*-Matrix von Bildern ein (Methode)
+  fügt das *k*-te Bild in einer *i* × *j*-Matrix von Bildern ein (Methode)
 
 * ``plt.xticks``
 
@@ -538,6 +538,7 @@ Mehrere Zeichnungen in einem Bild
   Bild abspeichern (Methode)
 
 * ``from IPython.display import Image``
+
   ``Image``
 
   Bild aus dem Speicher anzeigen
@@ -567,13 +568,13 @@ Zusammenfassen
 benutzerspezifische trigonometrische Vereinfachungen
 ====================================================
 
-* ``trigsimp(method='fu', measure=`` *my.measure* ``)``
+* ``trigsimp(method='fu', measure=`` *my_measure* ``)``
 
   trigonometrische Umwandlung, dabei wird die durch *my_measure* angegebene Bewertung minimiert (Funktion oder Methode)
 
 * ``.count_ops(visual=True)``
 
-  Anzahlen von Operatoren, aufgeschlüsselt nach Art
+  Anzahlen von Operatoren, aufgeschlüsselt nach Art (Methode)
 
 Potenzfunktionen
 ================
