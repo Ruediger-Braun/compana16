@@ -507,7 +507,7 @@ Schleifen
 
 * ``range``
 
-  konsekutive Foleg von ganzen Zahlen (wie ``np.arange``, aber als Liste)
+  konsekutive Folge von ganzen Zahlen (wie ``np.arange``, aber als Liste)
 
 ``if/elif/else``
 ================
@@ -517,6 +517,7 @@ Schleifen
   Verzweigungen
 
 * ``from IPython.display import display``
+
   ``display``
 
   formatierte Ausgabe 
@@ -526,7 +527,7 @@ Mehrere Zeichnungen in einem Bild
 
 * ``fig.add_subplot(`` *ijk* ``)``
 
-  fügt das *k*-te Bild in einer *i*x*k*-Matrix von Bildern ein (Methode)
+  fügt das *k*-te Bild in einer *i* × *k*-Matrix von Bildern ein (Methode)
 
 * ``plt.xticks``
 
@@ -566,7 +567,7 @@ Zusammenfassen
 benutzerspezifische trigonometrische Vereinfachungen
 ====================================================
 
-* ``trigsimp(method='fu', measure=``*my.measure*``)``
+* ``trigsimp(method='fu', measure=`` *my.measure* ``)``
 
   trigonometrische Umwandlung, dabei wird die durch *my_measure* angegebene Bewertung minimiert (Funktion oder Methode)
 
