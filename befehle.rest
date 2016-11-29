@@ -360,7 +360,7 @@ Lektion 4
 
   erzeugt 2d-array aus zwei 1d-array
 
-* ``from mpl_toolkits import Axes3D``
+* ``from mpl_toolkits.mplot3d import Axes3D``
 
   Das muss man machen, obwohl Axes3D nicht direkt verwendet wird
 
