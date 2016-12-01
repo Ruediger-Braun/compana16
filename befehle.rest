@@ -583,6 +583,58 @@ Potenzfunktionen
 
   Signumfunktion
 
+zurück zum Inhaltsverzeichnis_
+  
+Lektion 7
+*********
+
+Integration
+===========
+
+* ``Si``
+
+  Integralsinus
+
+* ``erf``
+
+  Gaußsche Fehlerfunktion
+
+Vektoren und Matrizen
+=====================
+
+* ``Matrix``
+
+  Matrix; einzeilige Matrizen fungieren als Vektoren
+
+* ``eye``
+
+  Einheitsmatrix
+
+* ``.det``
+
+  Determinante, Methode von ``Matrix``
+
+* ``.T``
+
+  Transponierte, Methode von ``Matrix``
+
+Manipulation von Matrizen
+=========================
+
+* ``.reshape``
+
+  Form einer Matrix ändern bei gleichen Einträgen, Methode von ``Matrix``
+
+
+Matrix aus Bildungsvorschrift
+=============================
+
+* ``mpmath.mpf``, ``mpmath.mpi``, ``mpmath.mpc``
+
+  beliebig genaue Datentypen des ``mpmath``-Moduls (float, integer, complex)
+
+
+
 
 ----------------------
 
