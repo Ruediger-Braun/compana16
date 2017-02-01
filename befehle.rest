@@ -913,8 +913,8 @@ zurück zum Inhaltsverzeichnis_
 
 ----------------------
 
-© 2016 `Rüdiger Braun`_
+© 2016 `Rüdiger Braun`_ und Maximilian Schneiders
 
 zurück zum Inhaltsverzeichnis_
 
-.. _`Rüdiger Braun`: mailto:Ruediger.Braun@uni-duesseldorf.de und `Maximilian Schneiders`
+.. _`Rüdiger Braun`: mailto:Ruediger.Braun@uni-duesseldorf.de 
