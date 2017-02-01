@@ -917,4 +917,4 @@ zurück zum Inhaltsverzeichnis_
 
 zurück zum Inhaltsverzeichnis_
 
-.. _`Rüdiger Braun`: mailto:Ruediger.Braun@uni-duesseldorf.de
+.. _`Rüdiger Braun`: mailto:Ruediger.Braun@uni-duesseldorf.de und `Maximilian Schneiders`
