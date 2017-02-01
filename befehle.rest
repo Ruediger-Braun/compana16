@@ -632,9 +632,284 @@ Matrix aus Bildungsvorschrift
 * ``mpmath.mpf``, ``mpmath.mpi``, ``mpmath.mpc``
 
   beliebig genaue Datentypen des ``mpmath``-Moduls (float, integer, complex)
+  
+zurück zum Inhaltsverzeichnis_  
+
+Lektion 8
+*********
+
+Matrixplots
+===========
+
+* ``plt.imshow``
+
+  zeigt ein Bild in einem Koordinatensystem an
+  
+* ``.astype(float)``
+
+  konvertiert die Einträge eines np.arrays in Fließkommazahlen
+  
+* ``plt.colorbar``
+
+  zeigt einen Farbbalken neben dem Plot an
+  
+Veränderliche und unveränderliche Matrizen
+==========================================
+
+* ``copy``
+
+  erstellt eine Kopie einer Variable
+  
+Gauß-Elimination zu Fuß
+=======================
+
+* ``LUdecomposition``
+
+  LU-Zerlegung einer Matrix
+  
+* ``.row_join``
+
+  hängt einen Spaltenvektor an eine Matrix, Methode von ``Matrix``
+  
+* ``.row_op(`` *i,func* ``)``
+
+  wendet die Funktion *func* auf die i-te Zeile einer Matrix an. Dabei hat *func* zwei Eingabeparameter: Den Matrixeintrag und den Spaltenindex, Methode von ``Matrix``
+
+Eigenwerte
+==========
+
+* ``.eigenvals``
+
+  berechnet Eigenwerte und deren Vielfachheiten einer Matrix, Methode von ``Matrix``
+  
+* ``.eigenvects``
+
+  berechnet Eigenwerte, deren Vielfachenheiten und die zugehörigen Eigenvektoren einer Matrix, Methode von ``Matrix``
+  
+* ``diagonalize``
+
+  Diagonalisierung einer Matrix, Methode von ``Matrix``
+  
+zurück zum Inhaltsverzeichnis_
+
+Lektion 9
+*********
+
+Jordansche Normalform
+=====================
+
+* ``.jordan_form``
+
+  Jordansche Normalform einer Matrix, Methode von ``Matrix``
+  
+Rang einer Matrix
+=================
+  
+* ``.rank``
+
+  Rang einer Matrix, Methode von ``Matrix``
+  
+Normen von Vektoren und Matrizen 
+================================
+
+* ``norm``
+
+  Norm eines Vektors oder einer Matrix, Methode von ``Matrix``
+  
+Kreuzprodukt
+============
+
+* ``cross``
+
+  Kreuzprodukt zweier Vektoren, Methode von ``Matrix``
+  
+Jacobi- und Hessematrix
+=======================
+
+* ``jacobian``
+
+  Jacobimatrix
+  
+* ``hessian``
+
+  Hessematrix
+  
+zurück zum Inhaltsverzeichnis_
+
+Lektion 10
+**********
+
+Ebene parametrische Plots
+=========================
+
+* ``plt.axis('image')``
+
+  begrenzt die Achsen anhand der Daten
+  
+Polarkoordinaten
+================
+
+* ``atan``, ``atan2``
+
+  Arcustangens
+  
+Datenim- und export
+===================
+
+* ``str``, ``srepr``
+
+  stellt ein Objekt als String dar
+  
+* ``with open(``*file*``) as ``*name*``
+
+  öffnet eine Datei als *name*
+  
+* ``%less``
+
+  Datei anzeigen
+  
+* ``.readline``
+
+  Zeile einer Datei lesen
+  
+* ``.write``
+
+  In eine Datei schreiben
+  
+Code in anderen Sprachen
+========================
+
+* ``octave_code``, ``ccode``, ``fcode``, ``latex``
+
+  konvertiert einen Ausdruck in einen String der entsprechenden anderen Sprache
+  
+Vektorfelder
+============
+
+* ``plt.quiever``
+
+  Plotten von Vektorfeldern
+  
+zurück zum Inhaltsverzeichnis_
+
+Lektion 11
+**********
+
+Extrema unter Nebenbedingungen
+==============================
+
+* ``set``
+
+  Liste in Menge umwandeln
+  
+* ``.add``
+
+  Element einem Objekt hinzufügen
+  
+* ``.is_real``
+
+  prüft, ob ein Ausdruck reell ist
+  
+Plotverschönerung
+=================
+
+* ``plt.annotate``
+
+  Anmerkungen in einem Plot
+  
+Differentialgleichungen
+=======================
+
+* ``Function``
+
+  definiert eine mathematische Funktion
+
+* ``dsolve``
+
+  Lösung von gewöhnlichen Differentialgleichungen
+  
+* ``.rhs``
+
+  Rechte Seite einer Gleichung, analog ``.lhs``
+  
+* ``np.ones_like``  
+  
+  Array mit Einsen in derselben Dimension und vom selben Typ wie die Eingabe
+
+zurück zum Inhaltsverzeichnis_
+
+Lektion 12
+**********
+
+Matrixexponentiale
+==================
+
+* ``.exp``
+
+  Matrixexponential, wenn auf Matrix angewendet
+  
+Koeffizienten
+=============
+
+* ``.coeff``
+
+  gibt den Koeffizienten zurück
+  
+Gekoppelte Pendel
+=================
+
+* ``%time``
+
+  Dauer der Ausführung eines Befehls
+  
+* ``len``
+
+  Anzahl der Zeichen in einem String
+ 
+Numerische Lösungen
+===================
+
+* ``mpmath.odefun``
+
+  numerische Lösung von gewöhnlichen Differentialgleichungen erster Ordnung
 
 
+zurück zum Inhaltsverzeichnis_
 
+Lektion 13
+**********
+
+Besselfunktionen
+================
+
+* ``del``
+
+  Variable löschen
+  
+* ``factorial``
+
+  Fakultät
+
+* ``besseli``
+
+  modifizierte Besselfunktion erster Art
+  
+Pattern matching
+================
+
+* ``Wild``
+
+  Symbole für Pattern matching
+  
+* ``.match``
+
+  Pattern matching
+  
+* ``.is_Add``, ``.is_Mul``, ``.is_Pow``
+
+  prüft, ob ein Ausdruck eine Addition, Multiplikation, Potenz ist
+  
+zurück zum Inhaltsverzeichnis_
 
 ----------------------
 
