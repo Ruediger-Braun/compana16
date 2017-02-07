@@ -1,7 +1,9 @@
-
 import numpy as np
 from scipy.spatial import Delaunay 
 from mayavi import mlab
+import sympy
+sympy.init_printing()
+from IPython.display import display
 
 def test_triangular_mesh(cmap):
     """An example of a cone, ie a non-regular mesh defined by its
@@ -25,8 +27,7 @@ def test_triangular_mesh(cmap):
 def plot_rational_curve():
     r = np.linspace(0, 2, 100)
     phi = np.linspace(0, 2*np.pi, 400)
-    R1, Phi1 = np.meshgrid(r, phi)
-    R, Phi = R1.T, Phi1.T
+    R, Phi = np.meshgrid(r, phi)
     Z = R*np.exp(1j*Phi)
     V = Z / (1+Z**4)
     W = abs(V)
@@ -43,24 +44,37 @@ def plot_rational_curve():
     mlab.triangular_mesh(Xf, Yf, Wf, dreiecke.simplices,
                          scalars=Theta_f, colormap='hsv')
 
-def plot_rational_curve2():  # works poorly 
-    r = np.linspace(0, 2, 100)
-    phi = np.linspace(0, 2*np.pi, 400)
-    R1, Phi1 = np.meshgrid(r, phi)
-    R, Phi = R1.T, Phi1.T
-    Z = R*np.exp(1j*Phi)
-    V = Z / (1+Z**4)
-    W = abs(V)
-    W[W>4] = np.nan
-    Rf = R.flatten()
-    Phi_f = Phi.flatten()
-    Zf = Z.flatten()
-    Xf = Zf.real
-    Yf = Zf.imag
-    Vf = V.flatten()
-    Wf = W.flatten()
-    Theta_f = np.angle(Vf)
-    dreiecke = Delaunay(np.array([Rf, Phi_f]).T)
-    mlab.triangular_mesh(Xf, Yf, Wf, dreiecke.simplices,
-                         scalars=Theta_f, colormap='hsv')
 
+def plot_moebiusband():
+    t = sympy.Symbol('t')
+    s = sympy.Symbol('s')
+    M = sympy.Matrix([ 3*sympy.cos(t) + s*sympy.sin(t/2),
+                       3*sympy.sin(t),
+                       s*sympy.cos(t/2)])
+    sn = np.linspace(-1, 1)
+    tn = np.linspace(0, 2*np.pi)
+    S1, T1 = np.meshgrid(sn, tn)
+    Sn, Tn = S1.T, T1.T
+    fn = [sympy.lambdify((s,t), M[j], 'numpy') for j in range(3)]
+    Xn = [fn[j](Sn, Tn) for j in range(3)]
+    mlab.mesh(Xn[0], Xn[1], Xn[2], color=(1,0,0))
+    return M
+    
+
+def plot_normale(M):
+    s = sympy.Symbol('s')
+    t = sympy.Symbol('t')
+    seele = M.subs(s, 0)
+    Mt = seele.diff(t)
+    Ms = M.diff(s)
+    display(Mt, Ms)
+    N = Mt.cross(Ms)
+    display(N)
+    N_ein = seele + s*N/N.norm()
+    sn = np.linspace(0.01, 1)
+    tn = np.linspace(0, 2*np.pi)
+    S1, T1 = np.meshgrid(sn, tn)
+    Sn, Tn = S1.T, T1.T
+    Nn = [sympy.lambdify((s,t), N_ein[j], 'numpy') for j in range(3)]
+    Xn = [Nn[j](Sn, Tn) for j in range(3)]
+    mlab.mesh(Xn[0], Xn[1], Xn[2], color=(1,.8,0))
