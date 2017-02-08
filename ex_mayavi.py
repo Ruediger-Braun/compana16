@@ -71,7 +71,7 @@ def plot_normale(M):
     N = Mt.cross(Ms)
     display(N)
     N_ein = seele + s*N/N.norm()
-    sn = np.linspace(0.01, 1)
+    sn = np.linspace(0.05, 1)
     tn = np.linspace(0, 2*np.pi)
     S1, T1 = np.meshgrid(sn, tn)
     Sn, Tn = S1.T, T1.T
