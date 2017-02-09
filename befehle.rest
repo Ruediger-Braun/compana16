@@ -911,6 +911,34 @@ Pattern matching
   
 zurück zum Inhaltsverzeichnis_
 
+Lektion 14
+**********
+
+Graphen komplexer Funktionen
+============================
+
+* ``from scipy.spatial import Delaunay``
+
+  Import für die Triangulierung 
+  
+* ``.flatten``
+
+  Verschachtelte Listen in eine einzige Liste schreiben
+  
+* ``Delaunay``
+
+  Triangulierung
+  
+* ``.simplices``
+
+  Indizes der Eckpunkte, Attribut von ``Delaunay``
+  
+* ``ax.plot_trisurf``
+
+  Plot einer Triangulierung (3D), Methode von ``Axes3D``
+  
+zurück zum Inhaltsverzeichnis_
+
 ----------------------
 
 © 2016 `Rüdiger Braun`_ und Maximilian Schneiders
