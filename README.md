@@ -40,6 +40,16 @@ Die Vorlesung beginnt mit einer Einführung in dieses System.  Wer vorher schon 
 * [jupyter][11]
 * [sympy][12]
 
+## Mayavi
+
+In der letzten Vorlesung zeige ich, wie man 3D-Plots mit Mayavi herstellt.  Hier sind kurz Installationsanleitungen
+
+* [Linux][13]
+* [MS-Windows][14]
+
+
+
 [11]: http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb
 [12]: http://docs.sympy.org/dev/tutorial/
-
+[13]: ../master/inst-mayavi-linus.rst
+[14]: ../master/inst-mayavi-windows.rst
