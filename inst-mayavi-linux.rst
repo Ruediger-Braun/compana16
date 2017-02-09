@@ -22,5 +22,11 @@ aus den Quellen bauen.
 .. code:: bash
 
 	  source activate mayavi
+
+Die Schwierigkeit liegt augenblicklich (Februar 2017) darin, dass
+weder das Mayavi aus den offiziellen Conda-Quellen noch die notwendige
+Notebook-Extension an Python3 und QT5 angepasst sind.  Meine Anleitung
+fasst die Diskussion unter
+https://github.com/enthought/mayavi/issues/84 zusammen.
 	  ipython --gui=qt
 

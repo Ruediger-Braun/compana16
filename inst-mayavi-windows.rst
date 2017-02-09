@@ -4,7 +4,7 @@ Installation von Mayavi auf Windows-Systemen
 
 Voraussetzung ist, dass conda bereits installiert ist.  
 
-* Um Mayavi und sympy in eine neue Umgebung zu installieren öffnet man
+* Um Mayavi und sympy in eine neue Umgebung zu installieren, öffnet man
   eine Eingabeaufforderung und gibt ein
 
 .. code:: bash

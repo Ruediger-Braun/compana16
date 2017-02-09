@@ -51,5 +51,5 @@ In der letzten Vorlesung zeige ich, wie man 3D-Plots mit Mayavi herstellt.  Hier
 
 [11]: http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb
 [12]: http://docs.sympy.org/dev/tutorial/
-[13]: ../master/inst-mayavi-linus.rst
+[13]: ../master/inst-mayavi-linux.rst
 [14]: ../master/inst-mayavi-windows.rst
