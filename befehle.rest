@@ -61,7 +61,7 @@ beliebig genaue Fließkommazahlen
 
       Kreiszahl 
 
-+     ``N''
++     ``N``
 	    
       numerische Auswertung (Funktion) siehe auch in `bestimmte Integrale`_
 
@@ -941,7 +941,7 @@ zurück zum Inhaltsverzeichnis_
 
 ----------------------
 
-© 2016 `Rüdiger Braun`_ und Maximilian Schneiders
+© 2016-2017 `Rüdiger Braun`_ und Maximilian Schneiders
 
 zurück zum Inhaltsverzeichnis_
 

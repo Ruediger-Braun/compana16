@@ -94,3 +94,5 @@ ENV/
 Lektion*.pdf
 9plots.png
 bsp.txt
+.sconsign.dblite
+befehle.html
