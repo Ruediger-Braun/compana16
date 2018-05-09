@@ -2,9 +2,9 @@
 Installation auf Windows-Rechnern
 =================================
 
-* Miniconda von der `Download-Seite`_ herunterladen.  Wählen Sie die Version für mit Python 3.5 für Ihr Betriebbsystem
+* Miniconda von der `Download-Seite`_ herunterladen.  Wählen Sie die Version  mit Python 3.5 für Ihr Betriebbsystem
 
-* Die heruntergeladene Datei ausführen.  Dadurch startet das Installationsprogramm wird ausgeführt.  Am besten akzeptiert man alle Voreinstellungen.
+* Die heruntergeladene Datei ausführen.  Dadurch startet das Installationsprogramm.  Am besten akzeptiert man alle Voreinstellungen.
 
 * Öffnen Sie eine "Eingabeaufforderung" (finden Sie über die Suchfunktion) und installieren Sie die benötigten Bibliotheken mit dem Befehl 
 
